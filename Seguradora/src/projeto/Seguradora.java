@@ -47,6 +47,9 @@ public class Seguradora {
 		if (opcao == 8){
 		
 		}
+		if (opcao <=0 || opcao > 8){
+		Ststem.out.println("Erro, favor escolher opcao valida")
+		}
 		System.out.println("Cadestre seu nome");
 		nome = ler.nextLine();
 
