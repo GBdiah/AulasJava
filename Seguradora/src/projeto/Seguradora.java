@@ -20,13 +20,24 @@ public class Seguradora {
 		//TODO System.out.println("7- Listar Cliente");
 		//TODO System.out.println("8- Listar Cliente");
 		
-		System.out.println("Entre com uma opc„o: ");
+		System.out.println("Entre com uma opc√£o: ");
 		opcao = ler.nextInt();
 		
 		if (opcao == 1){
 			
 		}
-		
+		if (opcao == 2){
+			
+		}
+		if (opcao == 3){
+			
+		}
+		if (opcao == 4){
+			
+		}
+		if (opcao == 5){
+			
+		}
 		System.out.println("Cadestre seu nome");
 		nome = ler.nextLine();
 
