@@ -16,9 +16,9 @@ public class Seguradora {
 		System.out.println("3- Listar Cliente");
 		System.out.println("4- Listar Contrato");
 		System.out.println("5- Cadastrar Sinistro");
-		//TODO System.out.println("6- Listar Cliente");
-		//TODO System.out.println("7- Listar Cliente");
-		//TODO System.out.println("8- Listar Cliente");
+		System.out.println("6- Listar Sinistro");
+		System.out.println("7- Listar Contratos sem Sinistro");
+		System.out.println("8- Persistencia com Serializacao");
 		
 		System.out.println("Entre com uma opcão: ");
 		opcao = ler.nextInt();
@@ -37,6 +37,15 @@ public class Seguradora {
 		}
 		if (opcao == 5){
 			
+		}
+		if (opcao == 6){
+			
+		}
+		if (opcao == 7){
+		
+		}
+		if (opcao == 8){
+		
 		}
 		System.out.println("Cadestre seu nome");
 		nome = ler.nextLine();
