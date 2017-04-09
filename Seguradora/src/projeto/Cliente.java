@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Cliente {
 	public String nome;
 	public int tipoPessoa;
+	public float valorImovel;
 	
 	public String getNome() {
 		return nome;
@@ -17,6 +18,12 @@ public class Cliente {
 	}
 	public void setTipoPessoa(int tipoPessoa) {
 		this.tipoPessoa = tipoPessoa;
+	}
+	public int getValorImovel(){
+		return valorImovel;
+	}
+	public void setValorImovel(){
+		this.valorImovel = valorImovel;
 	}
 	
 }
